@@ -101,3 +101,5 @@ const TestimonialsContainer = () => {
     </div>
   );
 };
+
+export default TestimonialsContainer;
