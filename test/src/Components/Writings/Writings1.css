@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.cardVisible {
+  opacity: 1;
+  animation: slideIn 0.5s ease-in-out forwards;
+}
+
+.cardHidden {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.imageVisible {
+  opacity: 1;
+  animation: slideIn 0.5s ease-in-out forwards;
+}
+
+.imageHidden {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateY(-20%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
