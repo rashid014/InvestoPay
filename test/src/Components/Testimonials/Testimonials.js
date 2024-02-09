@@ -1,7 +1,8 @@
 import React from 'react';
 import { Row, Col, Card, Avatar, Typography, Carousel } from 'antd';
 import { UserOutlined } from '@ant-design/icons';
-
+import Noufal from './noufal.jpg'
+import Person1 from './person1.jpg'
 const { Meta } = Card;
 const { Title, Paragraph } = Typography;
 
@@ -59,7 +60,7 @@ const TestimonialsContainer = () => {
                 <Card
                   bordered={false}
                   style={{ minWidth: 280 }}
-                  cover={<img alt="testimonial 1" src="https://via.placeholder.com/300" />}
+                  cover={<img alt="testimonial 1" src={Person1}/>}
                 >
                   <Meta
                     avatar={<Avatar icon={<UserOutlined />} />}
@@ -72,7 +73,7 @@ const TestimonialsContainer = () => {
                 <Card
                   bordered={false}
                   style={{ minWidth: 280 }}
-                  cover={<img alt="testimonial 2" src="https://via.placeholder.com/300" />}
+                  cover={<img alt="testimonial 2" src={Noufal} />}
                 >
                   <Meta
                     avatar={<Avatar icon={<UserOutlined />} />}
